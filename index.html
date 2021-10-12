@@ -1,209 +1,520 @@
-		<!DOCTYPE html>
-		<html lang="en">
-		<head>
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta http-equiv="X-UA-Compatible" content="ie=edge">
-			<meta name="descripcion" content="Portafolio personal desarrollador de software Ruderney Palencia, aprender y enseñar">
-			<meta name="keywords" content="Portafolio, desarrollador, software, ruderney,palencia,programador,java, javafx,php,css">
-			<meta name="author" content="Ruderney Palencia">
-			<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-			<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-			<link rel="stylesheet" href="estilos.css">
-			<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-			<title>Portafolio - Ruderney Palencia</title>
-		</head>
-		<body>
-			<!-- ======= Header ======= -->
-			<header id="header" class="fixed-top">
-				<div class="contenedor">
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio-Ruderney Palencia</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+    </style>
+  </noscript>
+</head>
+<body id="top">
+  <header>
+    <div class="profile-page sidebar-collapse">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+        <div class="container">
+          <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Geko</a>
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#Education">Education</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="page-content">
+    <div>
+      <div class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('images/fondo.jpg')"></div>
+            <div class="container">
+              <div class="content-center">
 
-					<div class="logo float-left">
-						<h1 class="text-light"><a href="index.html"><span>Ruderney Palencia</span></a></h1>
-						<!-- Uncomment below if you prefer to use an image logo -->
-						<!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-					</div>
+                <div class="h2 title">Ruderney Palencia Cardenas</div>
+                <p class="category text-white">Desarrollador de Software Jr</p>
+              </div>
+            </div>
 
-					<nav class="nav-menu float-right d-none d-lg-block">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="#about">Sobre mi</a></li>
-							<li><a href="#grid">Portafolio</a></li>
-						</ul>
-					</nav><!-- .nav-menu -->
+          </div>
+        </div>
+      </div>
 
-				</div>
-			</header><!-- End #header -->
-			<div class="contenedor">
-			<section id="about" class="about">
-				
+    </div>
+    <div class="section" id="about">
+      <div class="container">
+        <div class="card" data-aos="fade-up" data-aos-offset="10">
+          <div class="cc-profile-image"><a href="#"><img src="images/ruder.jpg" alt="Image"/></a>  <h3>Planear, diseñar y desarrollar proyectos de software.</h3></div>           
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="card-body">
 
-					<div class="section-title">
-						<h3>Sobre mi</h3>
-					</div>
+               <div class="h4 mt-0 title">About</div>
+               <h2 class="text-black"></h2>
+               <br>
 
-					<div class="row sobremi">
-						<div class="foto">
-							<img src="img/perfil.png" class="img-fluid" alt="sobre mi">
-						</div>
-						<div class="caja_text">
-							 <h2 class="text-black">Ruderney Palencia Cardenas</h2>
-                          <br>
-							<h3>Planear, diseñar y desarrollar proyectos de software.</h3>
-							<p class="font-italic">
-								Tengo dos (2) años de experiencia como desarrollador de Software, Actualmentes soy estudiente de Ingieneria en sistema y trabajo como desarrolador independiente.
-							</p>
-							<h4>Proyectos Realizados:</h4>
-							<ul>
-								<li> Sistema de control de personal Migrantes (java) </li>
-								<li> Sistema de inventario (java)</li>
-								<li> Sistema de nómina (PHP y Bootstrap).</li>
-								<li> Tienda Virtual (Ajax, Bootstrap, MySQL, MVC)</li>
-							</ul>
-							<h4>Proyectos en Desarrollo:</h4>
-							<p>SISTEMA ERP</p>
-							<h4>Proyectos en Personales:</h4>
-							<p>Sistema de reconocimiento Facial (java)</p>
+               <p class="font-italic">
+                Tengo dos (2) años de experiencia como desarrollador de Software, Actualmente soy estudiante de Ingenieria en sistema y trabajo como desarrollador independiente.
+              </p>
+              <h4>Proyectos Realizados:</h4>
+              <ul>
+                <li> Sistema de control de personal Migrantes (java,MySQL) </li>
+                <li> Sistema de inventario (java,MySQL)</li>
+                <li> Sistema de nómina (PHP y Bootstrap,MySQL).</li>
+                <li> Tienda Virtual (PHP,Ajax,Bootstrap, MySQL, MVC)</li>
+              </ul>
+              <h4>Proyectos en Desarrollo:</h4>
+              <ul>SISTEMA ERP
+                <li>Gestion Consultas y procedimientos Ips</li>
+                <li>Gestion de vehiculos</li>
+              </ul>
+              <ul>Sistema Certificaciones Estudiantes (Geko Student)
+                <li>Modulo Generacion de Certificados</li>
+                <li>Modulo Envio de Correo y Certificacion Automatizado</li>                
+              </ul>
+              <h4>Proyectos Personales:</h4>
+              <p>Sistema de reconocimiento Facial (java,MySQL)</p>
+              <p>Juego de Roles (java), aplicando nueva base de datos embebida</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="card-body">
+              <div class="h4 mt-0 title">Basic Information</div>
+              <div class="row">
+                <div class="col-sm-4"><strong class="text-uppercase">Edad:</strong></div>
+                <div class="col-sm-8">28</div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                <div class="col-sm-8">sistemasgeko12@gmail.com</div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+                <div class="col-sm-8">Bucaramanga, Colombia</div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+                <div class="col-sm-8">Spanish (Nativo), English (Intermedio)</div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="h4 mt-0 title">Attitude</div>
+              <div class="row">
+                <div class="col-sm-4"><strong class="text-uppercase">Responsabilidad</strong></div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Honestidad</strong></div>                    
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Adaptabilidad</strong></div>                   
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Integridad</strong></div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Trabajo en Equipo</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="skill">
+    <div class="container">
+      <div class="h4 text-center mb-4 title">Skills</div>
+      <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">HTML Y CSS /Bootstrap/Template Vali</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">JavaScript /AJAX/JQUERY/JSON</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">Java y JavaFX</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">SQL,MySQL</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">PHP</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">POO, Patron de Diseños (MVC)</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">Jaspert Report</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 72%;"></div><span class="progress-value">72%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">GIT</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">DataTable (table design library)</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">Spring framework (spring boot)</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">25%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">Linux(Debian_10)</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">78%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-container progress-primary"><span class="progress-badge">VBA(Excel)</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ml-auto mr-auto">
+          <div class="h4 text-center mb-4 title">Portfolio</div>
+          <div class="nav-align-center">
+            <ul class="nav nav-pills nav-pills-primary" role="tablist">
+              <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
+              <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+              <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content gallery mt-5">
+        <div class="tab-pane active" id="web-development">
+          <div class="ml-auto mr-auto">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/escritoriojava2.png" alt="Image java"/>
+                    <figcaption>
+                      <div class="h4">Sistema de Inventario</div>
+                      <p>Desarrollado en Java y MySQL ,Jaspert Report</p>
+                    </figcaption>
+                  </figure></a></div>
+                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                    <figure class="cc-effect"><img src="images/escritoriojava3.png" alt="Image java"/>
+                      <figcaption>
+                        <div class="h4">Sistema Inventario (registro Insumos)</div>
+                        <p>Desarrollado en Java,MySQL,Jaspert Report</p>
+                      </figcaption>
+                    </figure></a></div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                      <figure class="cc-effect"><img src="images/escriotriojavafx2.png" alt="Image javafx"/>
+                        <figcaption>
+                         <div class="h4">Sistema Generador de Certificaciones Estudiantes</div>
+                         <p>Desarrollado en JavaFX,MySQL,CSS,Jaspert Report</p>
+                       </figcaption>
+                     </figure></a></div>
+                     <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                      <figure class="cc-effect"><img src="images/escriotriojavafx4.png" alt="Image javafx"/>
+                        <figcaption>
+                          <div class="h4">Certificaciones Estudiantes (Ingresar Curso)</div>
+                          <p>Desarrollado en JavaFX,MySQL,CSS,Jaspert Report</p>
+                        </figcaption>
+                      </figure></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-						</div>
-					</div>
+              <div class="tab-pane" id="graphic-design" role="tabpanel">
+                <div class="ml-auto mr-auto">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                        <figure class="cc-effect"><img src="images/vehiculos.png" alt="Image"/>
+                          <figcaption>
+                            <div class="h4">Sistema Gestion de Vehiculos</div>
+                            <p>Desarrollado Web (PHP , MySQL ,JS,JSON, DataTable)</p>
+                          </figcaption>
+                        </figure></a></div>
+                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                          <figure class="cc-effect"><img src="images/solimante.png" alt="Image"/>
+                            <figcaption>
+                              <div class="h4"> Vehiculos (Solictud de Mantenimiento</div>
+                              <p>Desarrollado Web (PHP , MySQL ,JS,JSON, DataTable)</p>
+                            </figcaption>
+                          </figure></a></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                            <figure class="cc-effect"><img src="images/web2.png" alt="Image"/>
+                              <figcaption>
+                               <div class="h4">Sistema de Nomina (Usuario Consulta de Turnos)</div>
+                               <p>Desarrollado Web (PHP,MySQL,JS,Adminlte)</p>
+                             </figcaption>
+                           </figure></a></div>
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                            <figure class="cc-effect"><img src="images/movil3.png" alt="Image"/>
+                              <figcaption>
+                                <div class="h4">Sistema de Nomina (Administrar Nomina Empleado)</div>
+                                <p>Desarrollado Web (PHP,MySQL,JS,Adminlte)</p>
+                              </figcaption>
+                            </figure></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="Photography" role="tabpanel">
+                      <div class="ml-auto mr-auto">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                              <figure class="cc-effect"><img src="images/movil1.png" alt="Image"/>
+                                <figcaption>
+                                  <div class="h4">Sistema Logistica ( Menu de administracion)</div>
+                                  <p>Desarrollado Web-Responsive (PHP,MySQL,JS,Bootstrap,ajax)</p>
+                                </figcaption>
+                              </figure></a></div>
+                              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                                <figure class="cc-effect"><img src="images/web2.png" alt="Image"/>
+                                  <figcaption>
+                                   <div class="h4">Sistema Logistica (Administracion de Usuarios)</div>
+                                   <p>Desarrollado Web-Responsive (PHP,MySQL,JS,Bootstrap,ajax)</p>
+                                 </figcaption>
+                               </figure></a></div>
+                             </div>
+                             <div class="col-md-6">
+                              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                                <figure class="cc-effect"><img src="images/movil4.png" alt="Image"/>
+                                  <figcaption>
+                                    <div class="h4">Sistema Logistica (Administracion de Dashboard)</div>
+                                    <p>Desarrollado Web-Responsive (PHP,MySQL,JS,Bootstrap,ajax)</p>
+                                  </figcaption>
+                                </figure></a>
+                              </div>
+                              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                                <figure class="cc-effect"><img src="images/movil5.png" alt="Image"/>
+                                  <figcaption>
+                                    <div class="h4">Sistema Logistica (Login)</div>
+                                    <p>Desarrollado Web-Responsive (PHP,MySQL,JS,Bootstrap,ajax)</p>
+                                  </figcaption>
+                                </figure></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-			
-			</section><!-- End About Us Section -->
 
-			
-				<div class="header2">
-					<form action="">
-						<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
-					</form>
-					<div class="categorias" id="categorias">
-						<a href="#" class="activo">Todos</a>
-						<a href="#">WEB</a>
-						<a href="#">Escritorio</a>
-						<a href="#">Movil</a>
-						<a href="#">Otros</a>
-					</div>
-				</div>
-
-				<section class="grid" id="grid">
-					<div class="item" 
-					data-categoria="web"
-					data-etiquetas="web html css php javascript diseños Dashboard"
-					data-descripcion="Dashboard del sistema Control de Personal y Nomina."
-					>
-					<div class="item-contenido">
-						<img src="img/web1.png" alt="img web">
-					</div>
-				</div>
-
-				<div class="item"
-				data-categoria="web"
-				data-etiquetas="web html css php javascript diseños ips Procedimientos"
-				data-descripcion="Modulo Ips Gestion Control de Atenciones Medicos y Procedimientos"
-				>
-				<div class="item-contenido">
-					<img src="img/web9.png" alt="ips medicos">
-				</div>
-			</div>
-
-			<div class="item"
-			data-categoria="web"
-			data-etiquetas="web html css php javascript diseños nomina"
-			data-descripcion="Modulo Nomina, Control y Getsion de nomina"
-			>
-			<div class="item-contenido">
-				<img src="img/web3.png" alt="nomina">
-			</div>
-		</div>
-
-		<div class="item"
-		data-categoria="escritorio"
-		data-etiquetas="javafx escritorio login"
-		data-descripcion="sistema de administacion y certificacion de estudiantes Login"
-		>
-		<div class="item-contenido">
-			<img src="img/escriotriojavafx.png" alt="javafx">
-		</div>
-	</div>
-
-	<div class="item"
-	data-categoria="escritorio"
-	data-etiquetas="javafx escritorio Menu Principal"
-	data-descripcion="sistema de administacion y certificacion de estudiantes Menu Principal">
-	<div class="item-contenido">
-		<img src="img/escriotriojavafx2.png" alt="javafx">
-	</div>
-</div>
-
-<div class="item"
-data-categoria="escritorio"
-data-etiquetas="java escritorio login "
-data-descripcion="sistema de Administracion de Inventario login de acceso.">
-<div class="item-contenido">
-	<img src="img/escritoriojava1.png" alt="java login">
-</div>
-</div>
-
-<div class="item"
-data-categoria="escritorio"
-data-etiquetas="java escritorio dashboard Menu Principal"
-data-descripcion="sistema de Administracion de Inventario Menu Principal o dashboard">
-<div class="item-contenido">
-	<img src="img/escritoriojava2.png" alt="java">
-</div>
-</div>
-
-<div class="item" 
-data-categoria="movil"
-data-etiquetas="Movil web html css php javascript diseños responsive menu"
-data-descripcion="sistema de gestion Logistica resposive Menu barra"
->
-<div class="item-contenido">
-	<img src="img/movil1.png" alt="responsive movil">
-</div>
-</div>
-
-<div class="item"
-data-categoria="movil"
-data-etiquetas="Movil web html css php javascript diseños responsive usuario"
-data-descripcion="sistema de gestion Logistica resposive, Gestion de Usuarios "
->
-<div class="item-contenido">
-	<img src="img/movil2.png" alt="responsive movil">
-</div>
-</div>
-</section>
-
-<section class="overlay" id="overlay">
-	<div class="contenedor-img">
-		<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
-		<img src="" alt="">
-	</div>
-	<p class="descripcion"></p>
-</section>
-<!-- ======= About Us Section ======= -->
-
-<footer class="contenedor">
-	<div class="redes-sociales">
-		<div class="contenedor-icono">
-			<a href="https://www.facebook.com/ruderd.law" target="_blank" class="facebook">
-				<i class="fab fa-facebook-f"></i>
-			</a>
-		</div>
-		<div class="contenedor-icono">
-			<a href="https://www.instagram.com/ruder_d.law/" target="_blank" class="instagram">
-				<i class="fab fa-instagram"></i>
-			</a>
-		</div>
-	</div>
-	<div class="creado-por">
-		<p>CopyRigth &copy <a href="#">Ruderney Palencia</a> - <a href="https://www.GekoSoftware.com">Geko Software</a></p>
-	</div>
-</footer>
-</div>
-
-<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
-<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
-<script src="main.js"></script>
-</body>
-</html>
+                  <div class="section" id="Education">
+                    <div class="container cc-education">
+                      <div class="h4 text-center mb-4 title">Education</div>
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body cc-education-header">
+                              <p>2021</p>
+                              <div class="h5">Sistemas Informaticos</div>
+                            </div>
+                          </div>
+                          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                              <div class="h5">Ingenieria en Sistema</div>
+                              <p class="category">Uniciencia</p>
+                              <p>Gestionar el desarrollo de soluciones software que cumplan con las necesidades de información de una organización.
+                              Traducir los requerimientos funcionales en diseños para planificar, realizar y evaluar proyectos de desarrollo, modificación o reemplazo de sistemas informáticos o de reingeniería.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body cc-education-header">
+                              <p>2021</p>
+                              <div class="h5">JAVA,PHP,MYSQL,PYTHON,CSS</div>
+                            </div>
+                          </div>
+                          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                              <div class="h5">Tecnico en Programacion de Software</div>
+                              <p class="category">SENA</p>
+                              <p>Desarrolla e implementa aplicativos de software para entornos Windows o entornos Web sobre diferentes plataformas y lenguajes de programación.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body cc-education-header">
+                              <p>2018</p>
+                              <div class="h5">Java - Mysql</div>
+                            </div>
+                          </div>
+                          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                              <div class="h5">Programador Java </div>
+                              <p class="category">Politecnico de Colombia</p>
+                              <p>Conocer los conceptos básicos y aplicaciones del lenguaje del Java para la programación en cuanto a: variables, operadores, tipos de datos, clases de Java, entre otros.
+                                Conceptos básicos,
+                                Variables,
+                                Tipos de datos,
+                                Operadores,
+                              Math</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--- Experiencia
+                  <div class="section" id="experience">
+                    <div class="container cc-experience">
+                      <div class="h4 text-center mb-4 title">Work Experience</div>
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body cc-experience-header">
+                              <p>March 2016 - Present</p>
+                              <div class="h5">CreativeM</div>
+                            </div>
+                          </div>
+                          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                              <div class="h5">Front End Developer</div>
+                              <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body cc-experience-header">
+                              <p>April 2014 - March 2016</p>
+                              <div class="h5">WebNote</div>
+                            </div>
+                          </div>
+                          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                              <div class="h5">Web Developer</div>
+                              <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body cc-experience-header">
+                              <p>April 2013 - February 2014</p>
+                              <div class="h5">WEBM</div>
+                            </div>
+                          </div>
+                          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                              <div class="h5">Intern</div>
+                              <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>-->
+              </div>
+              <footer class="footer">
+            
+            </div>
+            <div class="h4 title text-center">Ruderney Palencia</div>
+            <div class="text-center text-muted">
+               <div class="section">
+                <div class="container">
+                  <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/ruderd.law" rel="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/ruder_d.law/" rel="tooltip" title="Instagram"><i class="fa fa-instagram"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+          <script src="js/core/popper.min.js?ver=1.1.0"></script>
+          <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+          <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+          <script src="js/aos.js?ver=1.1.0"></script>
+       
+        </body>
+        </html>
